@@ -1,0 +1,5 @@
+return {
+  ["Admins"] = {},
+  ["Moderator"] = {},
+  ["Developer"] = {},
+}
