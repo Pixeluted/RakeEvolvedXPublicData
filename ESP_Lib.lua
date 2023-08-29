@@ -357,6 +357,13 @@ local function CharAdded(char)
         })
     end
 end
+
+repeat
+    warn("Waiting...")
+    task.wait()
+until CharAdded ~= nil
+warn("Function defined!")
+
 local function PlayerAdded(p)
     p.CharacterAdded:Connect(CharAdded)
     if p.Character then
